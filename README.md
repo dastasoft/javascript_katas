@@ -16,6 +16,7 @@ It's also a good change of being better doing english written documentation.
 - Adding some performance tool to measure better in some way the answers.
 - Adding a way to generate data to check the limits of the answer in terms of performance.
 - Adding coding style checker specially for the tests.
+- Add Docker to avoid confusion with Node.js versions or any other software, the project must be runnable without touching anything on other system.
 
 ## Platforms used
 
@@ -24,29 +25,33 @@ There are many platforms which provides algorithmic challenges, I currently use:
 - [Hackerrank](https://www.hackerrank.com/)
 - [Codewars](https://www.codewars.com/)
 
-There is also other challenges which I found in books or other resources.
+There is also other challenges which I found in books or other resources and maybe will be contributions from other users.
 
 ## Project Structure
 
 Each platform has their own folder and inside you will found the challenges with documentation, the solution and the test.
 
 ```sh
+├── codewars/
+│   └── ...
+│
+├── contributions/
+│   └── ...
+│
+├── hackerrank/
+│   └── ...
+│
 ├── others/
 │   ├── UniqueElement/
 │   │   ├── index.js
 │   │   ├── index.test.js
 │   │   └── instructions.md
 │   └── ...
-│
-├── codewars/
-│   └── ...
-├── hackerrank/
-│   └── ...
 ```
 
 ## Contributors
 
-Feel free to open issues or send PRs
+Feel free to open issues or send PRs and submit new katas under the `contributions` folder.
 
 ## License
 
