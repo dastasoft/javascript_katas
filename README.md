@@ -1,6 +1,17 @@
 # Javascript Katas
 
-A collection of JavaScript challenges solved with testing included.
+<h5 align="center">A collection of JavaScript challenges solved with testing included.</h5>
+
+<p align="center">
+  <a href="https://travis-ci.com/dastasoft">
+    <img src="https://travis-ci.com/dastasoft/javascript_katas.svg?branch=main">
+  </a>
+  <a href="https://github.com/prettier/prettier">
+    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
+  </a>
+  <img src="https://img.shields.io/github/license/dastasoft/javascript_katas">
+</p>
+<hr />
 
 ## Motivation
 
