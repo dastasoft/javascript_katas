@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A collection of JavaScript challenges solved with testing included",
   "scripts": {
-    "lint": "eslint . --fix",
-    "test": "jest",
-    "test-watch": "jest -o --watch"
+    "lint": "./node_modules/eslint/bin/eslint.js . --fix",
+    "test": "./node_modules/jest/bin/jest.js",
+    "test-watch": "./node_modules/jest/bin/jest.js -o --watch"
   },
   "repository": {
     "type": "git",
