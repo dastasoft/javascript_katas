@@ -13,6 +13,10 @@ const {
   dividedBy,
 } = require('.')
 
+test('Seven plus seven', () => {
+  expect(seven(plus(seven()))).toBe(14)
+})
+
 test('Seven times five', () => {
   expect(seven(times(five()))).toBe(35)
 })
@@ -27,4 +31,12 @@ test('Eight minus three', () => {
 
 test('Six divide by two', () => {
   expect(six(dividedBy(two()))).toBe(3)
+})
+
+test('Four divided by six', () => {
+  expect(four(dividedBy(six()))).toBe(0)
+})
+
+test('Eight divided by seven', () => {
+  expect(eight(dividedBy(seven()))).toBe(1)
 })
