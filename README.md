@@ -15,9 +15,9 @@
 
 ## Motivation
 
-Doing javascript challenges will sharp my knowledge of the language, algorithmic thinking and let me to implement simple testing and some other cool stuff. Furthermore can be a good way to prepare a tech interview, for that check the [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook).
+Doing javascript challenges will sharp my knowledge of the language, algorithmic thinking and let me to implement simple testing and some other cool stuff. Furthermore can be a good way to prepare a tech interview, if this is your main goal check the [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook).
 
-It's also a good change of being better doing english written documentation.
+It's also a good chance of being better doing english written documentation.
 
 ## Goals
 
