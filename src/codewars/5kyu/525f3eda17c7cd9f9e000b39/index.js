@@ -27,8 +27,6 @@ function dividedBy(rightOperand) {
   return leftOperand => Math.trunc(leftOperand / rightOperand)
 }
 
-console.log(numberFunctions)
-
 module.exports = {
   ...numberFunctions,
   plus,
