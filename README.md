@@ -3,9 +3,7 @@
 <h5 align="center">A collection of JavaScript challenges solved with testing included.</h5>
 
 <p align="center">
-  <a href="https://travis-ci.com/dastasoft">
-    <img src="https://travis-ci.com/dastasoft/javascript_katas.svg?branch=main">
-  </a>
+  <img src="https://github.com/dastasoft/javascript_katas/actions/workflows/node.js.yml/badge.svg" alt="node.js ci status">
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
   </a>
