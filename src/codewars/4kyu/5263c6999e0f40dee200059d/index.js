@@ -2,7 +2,7 @@ const KEYPAD = [
   ['1', '2', '3'],
   ['4', '5', '6'],
   ['7', '8', '9'],
-  ['', '0', '']
+  ['', '0', ''],
 ]
 
 function findIndexInKeypad(digit) {
@@ -22,7 +22,7 @@ function checkNeighbors([row, column]) {
     up: row - 1,
     down: row + 1,
     left: column - 1,
-    right: column + 1
+    right: column + 1,
   }
 
   if (movements.up >= 0 && checkMovement(movements.up, column)) {
@@ -60,7 +60,7 @@ function generateAllPossibleCombinations(keypadList) {
       ...keypadList[0].map(
         (digit, outerIndex) =>
           `${keypadList[0][outerIndex]}${innerCombinations[index]}`
-      )
+      ),
     ]
   }, [])
 }

@@ -135,7 +135,7 @@ const expectedResult = [
   '2668',
   '1268',
   '4268',
-  '2268'
+  '2268',
 ]
 
 test('All max', () => {

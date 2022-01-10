@@ -3,12 +3,13 @@
   "version": "1.0.1",
   "description": "A collection of JavaScript challenges using TDD",
   "scripts": {
-    "lint": "./node_modules/eslint/bin/eslint.js . --fix",
-    "test": "./node_modules/jest/bin/jest.js",
-    "test:watch": "./node_modules/jest/bin/jest.js -o --watch",
+    "clean": "rm -rf ./node_modules",
+    "format": "prettier --write ./src",
+    "lint": "eslint ./src --fix",
     "prepare": "husky install",
-    "format": "prettier --write .",
-    "clean": "rm -rf ./node_modules"
+    "test": "jest --coverage --verbose",
+    "test:ci": "jest -b --ci",
+    "test:watch": "jest -o --watch"
   },
   "repository": {
     "type": "git",
@@ -36,16 +37,6 @@
     "eslint-plugin-promise": "^6.0.0",
     "husky": "^7.0.4",
     "jest": "^27.4.5",
-    "lint-staged": "^12.1.4",
     "prettier": "^2.5.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
   }
 }
