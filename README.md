@@ -64,4 +64,4 @@ Feel free to open issues or send PRs and submit new katas under the `contributio
 
 ## License
 
-MIT [dastasoft](https://dastasoft.netlify.app/)
+MIT [dastasoft](https://dastasoft.com/)

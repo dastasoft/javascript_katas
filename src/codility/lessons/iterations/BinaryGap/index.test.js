@@ -1,4 +1,4 @@
-const { solution } = require('./')
+const { solution } = require('.')
 
 test('N = 1041', () => {
   expect(solution(1041)).toBe(5)
