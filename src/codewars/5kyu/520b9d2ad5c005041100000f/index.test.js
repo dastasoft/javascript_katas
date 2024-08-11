@@ -6,7 +6,7 @@ test('Pig latin is cool', () => {
 
 test('One element', () => {
   expect(pigIt('There is a single element')).toBe(
-    'hereTay siay aay inglesay lementeay'
+    'hereTay siay aay inglesay lementeay',
   )
 })
 

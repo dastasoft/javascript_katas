@@ -8,13 +8,13 @@ test('Must work with many more names', () => {
       { name: 'Bart' },
       { name: 'Lisa' },
       { name: 'Maggie' },
-    ])
+    ]),
   ).toBe('Homer, Marge, Bart, Lisa & Maggie')
 })
 
 test('Must work with many names', () => {
   expect(list([{ name: 'Bart' }, { name: 'Lisa' }, { name: 'Maggie' }])).toBe(
-    'Bart, Lisa & Maggie'
+    'Bart, Lisa & Maggie',
   )
 })
 

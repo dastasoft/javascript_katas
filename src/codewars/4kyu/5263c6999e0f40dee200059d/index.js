@@ -59,7 +59,7 @@ function generateAllPossibleCombinations(keypadList) {
       ...accumulator,
       ...keypadList[0].map(
         (digit, outerIndex) =>
-          `${keypadList[0][outerIndex]}${innerCombinations[index]}`
+          `${keypadList[0][outerIndex]}${innerCombinations[index]}`,
       ),
     ]
   }, [])

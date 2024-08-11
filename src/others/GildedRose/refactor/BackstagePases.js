@@ -4,7 +4,7 @@ class BackstagePases extends Item {
   constructor(
     name = 'Backstage passes to a TAFKAL80ETC concert',
     sellIn,
-    quality
+    quality,
   ) {
     super(name, sellIn, quality)
     this.BACKSTAGE_PASES_DAYS_TO_INCREASE_BY_2 = 10

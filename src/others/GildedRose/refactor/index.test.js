@@ -27,14 +27,16 @@ describe('Gilded Rose', function () {
   it('Should have sellIn property', () => {
     const items = shop.updateQuality()
     expect(
-      items.every(item => Object.prototype.hasOwnProperty.call(item, 'sellIn'))
+      items.every(item => Object.prototype.hasOwnProperty.call(item, 'sellIn')),
     ).toBe(true)
   })
 
   it('Should have quality property', () => {
     const items = shop.updateQuality()
     expect(
-      items.every(item => Object.prototype.hasOwnProperty.call(item, 'quality'))
+      items.every(item =>
+        Object.prototype.hasOwnProperty.call(item, 'quality'),
+      ),
     ).toBe(true)
   })
 
@@ -92,7 +94,7 @@ describe('Gilded Rose', function () {
       const backStagePases = new BackstagePases(
         'Backstage passes to a TAFKAL80ETC concert',
         50,
-        1
+        1,
       )
       shop = new Shop([backStagePases])
       const items = shop.updateQuality()
@@ -103,7 +105,7 @@ describe('Gilded Rose', function () {
       const backStagePases = new BackstagePases(
         'Backstage passes to a TAFKAL80ETC concert',
         10,
-        1
+        1,
       )
       shop = new Shop([backStagePases])
       const items = shop.updateQuality()
@@ -114,7 +116,7 @@ describe('Gilded Rose', function () {
       const backStagePases = new BackstagePases(
         'Backstage passes to a TAFKAL80ETC concert',
         5,
-        1
+        1,
       )
       shop = new Shop([backStagePases])
       const items = shop.updateQuality()
@@ -125,7 +127,7 @@ describe('Gilded Rose', function () {
       const backStagePases = new BackstagePases(
         'Backstage passes to a TAFKAL80ETC concert',
         0,
-        50
+        50,
       )
       shop = new Shop([backStagePases])
       const items = shop.updateQuality()

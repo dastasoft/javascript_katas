@@ -1,12 +1,13 @@
 {
   "name": "javascript_katas",
-  "version": "1.0.3",
+  "version": "2.0.1",
+  "type": "module",
   "description": "A collection of JavaScript challenges using TDD",
   "scripts": {
     "clean": "rm -rf ./node_modules",
     "format": "prettier --write ./src",
     "lint": "eslint ./src --fix",
-    "prepare": "husky install",
+    "prepare": "husky",
     "test": "jest --coverage --verbose",
     "test:ci": "jest -b --ci",
     "test:watch": "jest -o --watch"
@@ -28,15 +29,13 @@
   },
   "homepage": "https://github.com/dastasoft/javascript_katas#readme",
   "devDependencies": {
-    "eslint": "^8.33.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jest": "^27.2.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "husky": "^8.0.3",
-    "jest": "^29.4.2",
-    "prettier": "^2.8.3"
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jest": "^28.8.0",
+    "globals": "^15.9.0",
+    "husky": "^9.1.4",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3"
   }
 }

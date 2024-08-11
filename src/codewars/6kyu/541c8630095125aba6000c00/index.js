@@ -4,7 +4,7 @@ function digitalRoot(n) {
   do {
     result = Array.from(String(result), Number).reduce(
       (acc, curr) => acc + curr,
-      0
+      0,
     )
   } while (result > 9)
 
